@@ -1,0 +1,87 @@
+.form-body {
+    display: flex;
+}
+
+.forms {
+    /* width: 30%; */
+    margin: 0 auto;
+    border: 1px solid #c2c2c2;
+    border-radius: 15px;
+    padding: 50px;
+    margin-top: 30px;
+}
+
+.forms h1 {
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    color: #2d2d2d;
+    font-size: 25px;
+}
+
+.forms input {
+    width: 95%;
+    border: none;
+    border-radius: 10px;
+    background: #EEEEEE;
+    padding: 10px;
+    margin-top: 10px;
+    outline: none;
+}
+
+.forms label {
+    font-size: 18px;
+    font-family: "Ubuntu", sans-serif;
+    color: #2d2d2d;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: flex-start !important;
+    margin-bottom: 15px;
+}
+
+.checkbox input {
+    width: 5%;
+    margin: 17px 0 0 0;
+    
+}
+
+.checkbox p {
+    font-size: 15px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.formalar button {
+    width: 95%;
+    height: 40px;
+    border: none;
+    background: #00CFDC;
+    border-radius: 10px;
+    color: #fff;
+    font-size: large;
+    font-family: "Ubuntu", sans-serif;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.formalar .button2 {
+    background: #FF3F9B;
+}
+
+.formalar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.parol {
+    color: #8A8A8A;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.parol:hover {
+    color: #00CFDC;
+}

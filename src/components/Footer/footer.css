@@ -1,0 +1,61 @@
+.footer {
+    width: 100%;
+    height: 150px;
+    /* position: absolute; */
+    /* bottom: 0; */
+}
+
+.top-footer {
+    background: #2d2d2d;
+    height: 100px;
+    padding: 20px 0 20px 0;
+}
+
+.bottom-footer {
+    background: #1d1d1d;
+    height: 50px;
+    display: flex;
+    justify-content:center;
+}
+
+.text-footer {
+    color: #fff;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.text-footer a {
+    text-decoration: none;
+    color: #fff;
+    margin: 15px;
+}
+
+.text-footer a:hover {
+    color: #46DA00;
+}
+
+.icon-footer {
+    color: #fff;
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.icon-footer i {
+    margin: 15px;
+    font-size: 20px;
+    color: #8a8a8a;
+    cursor: pointer;
+}
+
+.bottom-footer p {
+    color: #8a8a8a;
+    font-size: medium;
+    font-family: "Ubuntu", sans-serif;
+}

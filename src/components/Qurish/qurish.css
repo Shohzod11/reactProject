@@ -1,0 +1,150 @@
+.qurish-body {
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+}
+
+.qurish {
+    background: #fff;
+    border-radius:20px;
+    width: 70%; 
+    padding: 20px;
+    margin: 20px 0;
+    color: #2d2d2d;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.qurish p {
+    text-align: center;
+    color: #000;
+}
+
+.qurish button {
+    border: none;
+    background: #7EFC01;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 35px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.qurish form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.qurish h3 {
+    text-align: center;
+    
+}
+
+.form {
+    width: 32%;
+}
+
+.form input {
+    width: 95%;
+    border: 1px solid #C2C2C2;
+    border-radius: 5px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+form .input {
+    width: 100%;
+    border: 1px solid #C2C2C2;
+    border-radius: 5px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+form .label {
+    margin-top: 15px;
+}
+
+form textarea {
+    width: 100%;
+    border: 1px solid #C2C2C2;
+    border-radius: 5px;
+    height: 100px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.textare {
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 20px 0 0 0;
+
+}
+
+.textare .textra {
+    width: 100%;
+    border: 1px solid #C2C2C2;
+    border-radius: 5px;
+    height: 100px;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.textare button {
+    background: #FF3F9B;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    top: 35px;
+    right: 0;
+}
+
+.qurish-forms {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.qurish-form {
+    width: 32%;
+    margin: 20px 5px 0 5px;
+}
+
+.qurish-form label {
+    color: #000;
+}
+
+.qurish-form input {
+    width: 98%;
+    border: 1px solid #C2C2C2;
+    border-radius: 5px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.qurish-forms button {
+    font-size: 18px;
+    font-family: "Ubuntu", sans-serif;
+    background: #00CFDC;
+    color: #fff;
+    padding: 5px 20px;
+    width: 150px;
+    cursor: pointer;
+    margin-top: 15px;
+}
